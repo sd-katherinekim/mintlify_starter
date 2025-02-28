@@ -3,13 +3,9 @@ title: "Add new channel item type"
 description: "Channel differentiation allows for a more organized and intuitive channel list within your application. By customizing the channel list to accommodate different channel types, users can have a tailored experience that fits the unique needs of different groups or topics."
 ---
 
-***
-
 ## **Create channel with custom data**
 
 First, define a new channel type that starts from 1001 and above. This is because Sendbird UIKit reserves channel types from 0 to 1000.
-
-
 
 // content type
 
@@ -28,19 +24,3 @@ const val NEW\_CHANNEL\_TYPE = 1001
 </div>
 
 When creating new channel types, custom data may be necessary to differentiate messages. Before sending a channel, you can set its custom type and insert the necessary data for rendering the UI.
-
-<div component="AdvancedCode" title="Kotlin">
-  ```kotlin,cs-jane.lee-07NOV2023-003
-
-  SendbirdUIKit.setCustomParamsHandler(object : CustomParamsHandler \{
-
-  &#x20;   override fun onBeforeCreateGroupChannel(params: GroupChannelCreateParams) \{
-
-  &#x20;       params.customType = NEW\_CHANNEL\_TYPE.toString()
-
-  &#x20;   }
-
-  })
-
-  ```
-</div>
