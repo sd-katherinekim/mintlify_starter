@@ -22,6 +22,12 @@
             ]
           },
           {
+            "group": "Build",
+            "pages": [
+              "build/build"
+            ]
+          },
+          {
             "group": "Essentials",
             "pages": [
               "essentials/markdown",
@@ -30,12 +36,6 @@
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Build",
-            "pages": [
-              "build/build"
             ]
           }
         ]
