@@ -22,20 +22,9 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "UIKit for Android View",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Build",
-            "pages": [
-              "build/build"
+              "android-view/customization"
             ]
           }
         ]
