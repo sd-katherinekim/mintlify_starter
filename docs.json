@@ -24,6 +24,7 @@
           {
             "group": "UIKit for Android View",
             "pages": [
+              "android-view/overview",
               "android-view/customization"
             ]
           }
