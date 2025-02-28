@@ -21,7 +21,7 @@
             ]
           },
           {
-            "group": "UIKit for Android View",
+            "group": "Customization",
             "pages": [
               "android-view/overview",
               "android-view/addnewchanneltype"
